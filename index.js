@@ -1,8 +1,8 @@
 //Desafio do Felipao
 
-    var nomeHeroi = "Nesuko Kamado";
-    var nivelHeroi;
-    var xp = 10000;
+    let nomeHeroi = "Nesuko Kamado";
+    let nivelHeroi;
+    let xp = 10000;
 
         if (xp < 1.000){
             nivelHeroi = "Ferro";
