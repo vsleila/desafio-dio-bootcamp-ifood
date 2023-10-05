@@ -25,5 +25,6 @@ function calcularNivelHeroi(saldoDeVitorias){
         nivel = "Imortal";
     }
 }
+
 console.log(`O Herói tem de saldo de ${saldoDeVitorias} está no nível de ${nivel}`);
 
