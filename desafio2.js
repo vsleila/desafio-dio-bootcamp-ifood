@@ -24,7 +24,6 @@ function calcularNivelHeroi(saldoDeVitorias){
     } else if (saldoDeVitorias >= 101){
         nivel = "Imortal";
     }
-
 }
 
 console.log(`O Herói tem de saldo de ${saldoDeVitorias} está no nível de ${nivel}`);

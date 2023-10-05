@@ -1,25 +1,25 @@
 //Desafio 1 - Classificador
 
     let nomeHeroi = "Nesuko Kamado";
-    let saldoDeVitorias;
-    let nivel = 10000;
+    let nivelHeroi;
+    let xp = 10000;
 
-        if (saldoDeVitorias < 1.000){
-            saldoDeVitorias = "Ferro";
-        } else if ((saldoDeVitorias >= 1001) && (saldoDeVitorias <= 2000)){
-            saldoDeVitorias = "Bronze";
-        } else if ((saldoDeVitorias >= 2001) && (saldoDeVitorias <= 5000)){
-            saldoDeVitorias = "Prata";
-        } else if ((saldoDeVitorias >= 6001) && (saldoDeVitorias <= 7000)){
-            saldoDeVitorias = "Ouro";
-        } else if ((saldoDeVitorias >= 7001) && (saldoDeVitorias <= 8000)){
-            saldoDeVitorias = "Platina";
-        } else if ((saldoDeVitorias >= 8001) && (saldoDeVitorias <= 9000)){
-            saldoDeVitorias = "Ascendente";
-        } else if ((saldoDeVitorias >= 9001) && (saldoDeVitorias <= 10000)){
-            saldoDeVitorias = "Imortal";
-        } else if (saldoDeVitorias >= 10001){
-            saldoDeVitorias = "Radiante";
+        if (xp < 1.000){
+            nivelHeroi = "Ferro";
+        } else if ((xp >= 1001) && (xp <= 2000)){
+            nivelHeroi = "Bronze";
+        } else if ((xp >= 2001) && (xp <= 5000)){
+            nivelHeroi = "Prata";
+        } else if ((xp >= 6001) && (xp <= 7000)){
+            nivelHeroi = "Ouro";
+        } else if ((xp >= 7001) && (xp <= 8000)){
+            nivelHeroi = "Platina";
+        } else if ((xp >= 8001) && (xp <= 9000)){
+            nivelHeroi = "Ascendente";
+        } else if ((xp >= 9001) && (xp <= 10000)){
+            nivelHeroi = "Imortal";
+        } else if (xp >= 10001){
+            nivelHeroi = "Radiante";
         }
 
-    console.log("O Herói de nome " + nomeHeroi + " está no nível de " + saldoDeVitorias);
+    console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivelHeroi}`);
