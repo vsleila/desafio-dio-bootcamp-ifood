@@ -12,4 +12,4 @@ Nesse repositório encontram-se os desafios propostos pelo Bootcamp da Dio com o
 
 3- Criar um pull request / Atualização de ReadMe
 
-4- Criação de Construtores
+4- Escrevendo as classes de um jogo 
